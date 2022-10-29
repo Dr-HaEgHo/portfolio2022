@@ -112,6 +112,7 @@
     }
     .hr-content{
         text-align: center;
+        width: 76%;
     }
     .hr-content h1{
         font-weight: 600;
