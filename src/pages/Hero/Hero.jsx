@@ -1,6 +1,5 @@
 import React from 'react'
 import "./hero.css"
-import { Icon } from '@iconify/react';
 import { introdata } from '../../content_option';
 import Typewriter from "typewriter-effect"
 import { Link } from 'react-router-dom';
