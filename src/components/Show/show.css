@@ -64,7 +64,7 @@
         align-items: center;
         flex-direction: column;
         justify-content: space-between;
-        margin: auto;
+        margin: 0 auto 0 auto;
         /* background: green; */
         /* gap: 2rem; */
     }
@@ -81,6 +81,7 @@
         height: 100px;
         text-overflow: ellipsis;
         overflow-y: scroll;
+        margin: 0 auto 12px auto;
     }
 
     .caro-img {
