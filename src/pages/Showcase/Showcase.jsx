@@ -12,8 +12,8 @@ const Showcase = () => {
               <div className="sc">
                   <Carousel
                     className="port-swiper"
-                    autoPlay={false}
-                    infiniteLoop={false}
+                    autoPlay={true}
+                    infiniteLoop={true}
                     loop={true}
                     swipeable={true} 
                     showStatus={false}
