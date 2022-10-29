@@ -1,5 +1,5 @@
 import React from 'react'
-import "./header.css"
+import "./Header.css"
 import CV from "../../assets/resume.pdf"
 import { Link } from 'react-router-dom'
 import { Icon } from '@iconify/react';
