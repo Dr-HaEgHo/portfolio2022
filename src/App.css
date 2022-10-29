@@ -3,29 +3,38 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Poppins, sans-serif;
+
 }
 
 :root {
     --bg-color: #000212;
     --accent-color: #352a4f;
-    --primary-color: #000212;
+    --primary-color: #455EB5;
     --secondary-color: #fff;
     --text-color: #fff;
     --text-color-2: #fff;
     --overlay-color: rgb(12 12 12 / 63%);
+    --grad-btn:linear-gradient(to right, #455EB5 0%, #5643CC, #673FD7);
+    --trans-grad-btn: linear-gradient(to bottom left, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.01));
+}
 
+body{
+    background: var(--bg-color);
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color)
 }
 
 .container{
     width: 90%;
     max-width: 1200px;
     margin: auto;
-    background: yellow;
 }
 
 @media (max-width: 994px){
     .container{
-        background: orange;
         width: 96%;
     }
 }
