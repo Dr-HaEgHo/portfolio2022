@@ -17,11 +17,11 @@ const Skills = () => {
                       <div className="am-title-desc">
                            <h2 className="am-title">Experience</h2>
                           <div className="am-desc">{
-                              worktimeline && worktimeline.map(timeline => (
-                                  <div className="each-timeline">
-                                      <div className="am-role">{ timeline.jobtitle }</div>
-                                      <div className="am-coy">{ timeline.where }</div>
-                                      <div className="am-duration">{timeline.date} - { timeline.endDate }</div>
+                              worktimeline && worktimeline.map((timeline, i ) => (
+                                  <div key={i} className="each-timeline">
+                                      <p className="am-role">{ timeline.jobtitle }</p>
+                                      <p className="am-coy">{ timeline.where }</p>
+                                      <p className="am-duration">{timeline.date} - { timeline.endDate }</p>
                                </div>
                            ))
                           }</div>
@@ -29,8 +29,8 @@ const Skills = () => {
                       <div className="am-title-desc">
                            <h2 className="am-title">My Skills</h2>
                           <div className="am-desc">{
-                              skills && skills.map(skill => (
-                                  <div className="each-skill">
+                              skills && skills.map((skill, i) => (
+                                  <div key={i} className="each-skill">
                                       <div className="am-skill">{ skill.name }</div>
                                       <div className="am-icon">{ skill.icon }</div>
                                </div>
