@@ -10,7 +10,6 @@
     left :20px;
     transform: translateY(-50%);
     transition: .2s ease all;
-    display: none;
 }
 
 .footer hr {
@@ -39,3 +38,12 @@
     cursor: pointer;
 }
 
+@media (max-width:991px) {
+    .footer{
+        display: none;
+    }
+}
+
+@media (max-width:650px) {
+    
+}

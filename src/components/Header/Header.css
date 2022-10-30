@@ -3,7 +3,8 @@
     border-bottom: 1px var(--accent-color) solid; 
     position: relative;
     position: fixed;
-    backdrop-filter: blur(8px)
+    backdrop-filter: blur(8px);
+    z-index: 2345678765432345678;
 }
 
 .nav{

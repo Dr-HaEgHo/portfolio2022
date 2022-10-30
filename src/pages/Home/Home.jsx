@@ -3,6 +3,7 @@ import "./home.css"
 import Hero from '../Hero/Hero'
 import Showcase from '../Showcase/Showcase'
 import Footer from '../../components/Footer/Footer'
+import Skills from '../Skills/Skills'
 
 
 const Home = () => {
@@ -10,6 +11,7 @@ const Home = () => {
     <div className='home' >
       <Hero />
       <Showcase />
+      <Skills/>
       <Footer/>
     </div>
   )

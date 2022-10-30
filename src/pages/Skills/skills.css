@@ -1,0 +1,83 @@
+.skills{
+    height: 100vh;
+    width: 100%;
+    scroll-snap-align: start;
+    color: var(--text-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.scroll{
+    height: 100vh;
+    overflow-y: scroll;
+    /* background: yellow; */
+}
+
+.scroll::-webkit-scrollbar{
+    display: none;
+}
+
+.sks{
+    width: 100%;
+    padding: 5rem 0 0 0;
+    height: 100%;
+}
+
+.about-me{
+    margin: 0 0 5rem 0
+}
+
+.about-me h1{
+    font-size: 50px;
+    font-weight: 400;
+}
+.about-me hr{
+    border-color: var(--accent-color);
+    margin: 0 0 2rem 0;
+}
+
+.am-title-desc{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    margin: 0 0 5rem 0;
+}
+
+.am-title{
+    flex: 2;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.am-desc{
+    flex: 3.8;
+}
+
+.each-timeline{
+    border-bottom: 1px var(--accent-color) solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .8rem 0;
+}
+
+.am-role{
+    flex : 2;
+}
+
+.am-coy{
+    flex: 2;
+}
+.am-duration{
+    flex: 2;
+}
+
+
+.each-skill {
+    border-bottom: 1px var(--accent-color) solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.4rem 0;
+}

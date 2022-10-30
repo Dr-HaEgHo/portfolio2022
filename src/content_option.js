@@ -25,7 +25,7 @@ const introdata = {
 
 const dataabout = {
     title: "a bit about my self",
-    aboutme: " I am Timothy Awogbuyi, and I'm passionate about coding. I love writing code and solving real-world problems by creating tools to help people carry out tasks more efficiently.</br> I love art, music, and games. You can always hit me up for a team-up in CODm😁.</br> Also, I'm interested in the metaverse, decentralized internet (Web 3), crypto, and NFTs.",
+    aboutme: "I am Timothy Awogbuyi, and I'm a frontend developer who is very passionate about coding. I love writing code and solving real-world problems by creating tools to help people carry out tasks more efficiently.</br> I love art, music, and games. You can always hit me up for a team-up in CODm😁.</br> Also, I'm interested in the metaverse, decentralized internet (Web 3), crypto, and NFTs.",
 };
 const worktimeline = [{
         jobtitle: "Front-end Developer",
