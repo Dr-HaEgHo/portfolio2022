@@ -17,7 +17,8 @@
 }
 
 .hd-home{
-
+    color: var(--text-color);
+    cursor: pointer;
 }
 
 .hd-home h1{
@@ -35,9 +36,13 @@
     color: var(--text-color);
 }
 
-.hd-links li{
+li{
     list-style: none;
 } 
+
+li:hover{
+    text-shadow: 0px 0px 30px var(--primary-color);
+}
 
 
 
@@ -63,6 +68,7 @@
     color: var(--text-color);
     width: 30px;
     height: 30px;
+    transition: .2s ease all;
 }
 
 .burger-icon:hover{
@@ -98,5 +104,41 @@
     }
     .download__cv{
         display: none;
+    }
+    .navTray{
+        background: var(--bg-color);
+        width: 100%;
+        position: absolute;
+        right: 0;
+        top: 0px;
+        border-radius: 6px;
+        border: 1px var(--accent-color) solid;
+        backdrop-filter: blur(30px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: .2s ease all;
+    }
+    .hd-nav-links{
+        flex: 1;
+        display: flex;
+        flex-direction : column;
+        align-items: center;
+        gap: 2rem;
+        justify-content: flex-end;
+        color: var(--text-color);
+    }
+
+    .download_nav_cv{
+        padding: 8px 20px;
+        background: var(--grad-btn);
+        border: none;
+        color: #fff;
+        border-radius: 50px;
+        cursor : pointer;
+        transition: .2s ease all;
+    }
+    .download_nav_cv:hover {
+        box-shadow: 0px 0px 30px var(--primary-color);
     }
 }

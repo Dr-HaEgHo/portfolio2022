@@ -7,7 +7,7 @@ import myself from "../../assets/myself.gif"
 
 const Hero = () => {
   return (
-      <div className='hero' >
+      <div className='hero' id='hero'>
           <div className="container">
               <div className="hr">
                   <div className="hr-image" >

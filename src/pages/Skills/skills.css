@@ -1,5 +1,5 @@
 .skills{
-    height: 100vh;
+    /* height: 100vh; */
     width: 100%;
     scroll-snap-align: start;
     color: var(--text-color);
