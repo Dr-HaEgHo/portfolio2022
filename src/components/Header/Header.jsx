@@ -9,7 +9,7 @@ import { useState } from 'react';
 
 const Header = () => {
 
-  const [trayOpen, setTrayOpen]  = useState(true)
+  const [trayOpen, setTrayOpen]  = useState(false)
 
   const toggleTray = () => {
     setTrayOpen(!trayOpen)
