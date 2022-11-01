@@ -1,0 +1,209 @@
+.contact{
+    width: 100%; 
+    height: 100vh;
+    background: var(--bg-color);
+    color: var(--text-color);
+    scroll-snap-align: start;
+}
+
+.ct{
+    width: 100%;
+    padding: 5rem 0 0 0;
+    height: 100%;
+}
+
+.contact-me {
+    margin: 0 0 5rem 0
+}
+
+.contact-me h1 {
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.contact-me hr {
+    border-color: var(--accent-color);
+    margin: 0 0 2rem 0;
+}
+
+.ct-form{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* background: blue; */
+}
+
+.ct-links{
+    flex:1;
+}
+
+.ct-links h3{
+    font-size: 30px;
+    font-weight: 300;
+    padding: 10px 0;
+    border-bottom: 1px var(--accent-color) solid;
+    width: fit-content;
+    margin: 0 0 16px 0;
+}
+
+.ct-links p{
+    display: flex;
+    align-items: center;
+    gap : 1rem;
+    font-weight: 300;
+    margin: 0 0 10px 0;
+    width: 70%;
+}
+
+.ct-form form{
+    flex:1;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.ct-form form textarea{
+    width: 100%;
+    background: var(--trans-grad-btn);
+    border-radius: 6px;
+    color: var(--text-color);
+    border: 1px var(--accent-color) solid;
+    padding: 1rem;
+    font-weight: 300;
+}
+
+.ct-form form textarea:focus{
+    outline: none;
+    border: 1px var(--primary-color) solid;
+}
+
+.ct-send-message{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ct-send-message button{
+    padding: .8rem 2rem;
+    background: var(--grad-btn);
+    border: none;
+    color: #fff;
+    border-radius: 6px;
+    cursor : pointer;
+    transition :.2s ease all;
+    flex:1;
+}
+
+.ct-send-message button:hover{
+     box-shadow: 0px 0px 20px var(--accent-color);
+}
+
+.ct-send-message button:active{
+    box-shadow: 0px 0px 10px var(--accent-color);
+}
+
+/* .ct-form form textarea{} */
+
+
+.ct-form-tops{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+textarea::placeholder{
+    color: var(--text-color)
+}
+
+input{
+    border: none;
+    background: var(--trans-grad-btn);
+    padding: .8rem 1.2rem;
+    border: 1px var(--accent-color) solid;
+    border-radius: 6px;
+    color: var(--text-color);
+    font-weight: 300;
+}
+
+input:focus{
+    border: 1px var(--primary-color) solid;
+    outline: none;
+ }
+
+input::placeholder{
+    color : var(--text-color)
+}
+
+.ct-form-tops input{
+    width: 50%;
+}
+
+
+@media(max-width: 994px) {
+    .ct-header h1{
+        font-size: 40px;
+    }
+    .ct-links h3 {
+        font-size: 20px;
+    }
+    .ct-links p {
+        font-size: 14px;
+    }
+}
+
+
+@media(max-width: 650px) {
+    .ct{
+        overflow-y: scroll;
+        padding-bottom: 4rem;
+        height: 100vh;
+    }
+    .ct::-webkit-scrollbar{
+        display: none;
+    }
+    .ct-header h1{
+        font-size: 30px;
+    }
+    .ct-links{
+        margin: 0 0 10px 0;
+    }
+    .ct-links h3 {
+        font-size: 20px;
+    }
+    .ct-links p {
+        font-size: 12px;
+    }
+    .ct-form{
+        flex-direction: column;
+    }
+    .ct-form form{
+    }
+    input{
+        font-size: 12px;
+        font-weight: 300;
+    }
+    textarea{
+        font-size: 12px;
+    }
+}
+@media(max-width: 450px) {
+    .ct-form-tops{
+        flex-direction: column;
+    }
+    .ct-form-tops input{
+        width: 100%;
+    }
+    .ct-links h3{
+        width: 100%;
+    }
+    .ct-links p{
+        width: 100%;
+    }
+    .ct-links p:nth-child(3), .ct-links p:nth-child(4){
+        display: none
+    }
+
+}

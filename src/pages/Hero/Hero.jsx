@@ -2,7 +2,7 @@ import React from 'react'
 import "./hero.css"
 import { introdata } from '../../content_option';
 import Typewriter from "typewriter-effect"
-import { Link } from 'react-router-dom';
+import { HashLink as Link} from 'react-router-hash-link';
 import myself from "../../assets/myself.gif"
 
 const Hero = () => {
@@ -31,10 +31,10 @@ const Hero = () => {
                       </h2>
                       <p>{introdata.description}</p>
                       <div className="hr-buttons">
-                            <Link to="/portfolio" className="text_2">
-                              <button className="home-portfolio-btn">My Portfolio</button>
+                            <Link to="#showcase" smooth className="text_2">
+                              <button className="home-portfolio-btn">My Works</button>
                             </Link>
-                            <Link to="/about">
+                            <Link to="#skills" smooth>
                               <button className="home-contact-btn">About Me</button>
                             </Link>
                       </div>

@@ -24,7 +24,7 @@ const Header = () => {
             <Link to="#hero" smooth><h1>Home</h1></Link>
           </div>
           <ul className="hd-links">
-            <Link to="#skills" smooth ><li>Skills</li></Link>
+            <Link to="#skills" smooth ><li>About Me</li></Link>
             <Link to="#showcase" smooth ><li>Showcase</li></Link>
             <Link to="#contact" smooth ><li>Contact</li></Link>
           </ul>
@@ -37,7 +37,7 @@ const Header = () => {
       
       <div style={{height: trayOpen ? "100vh" : "0" }} className="navTray">
         <ul style={{display: trayOpen ? "flex" : "none"}} className="hd-nav-links">
-          <Link to="#skills" smooth ><li onClick={toggleTray} >Skills</li></Link>
+          <Link to="#skills" smooth ><li onClick={toggleTray} >About Me</li></Link>
           <Link to="#showcase" smooth ><li onClick={toggleTray} >Showcase</li></Link>
           <Link to="#contact" smooth ><li onClick={toggleTray} >Contact</li></Link>
           <a href={CV} download="resume_Timothy_Awogbuyi" ><button type="submit" className="download_nav_cv">Download cv</button> </a>

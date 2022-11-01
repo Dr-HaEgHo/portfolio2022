@@ -137,14 +137,14 @@ const dataportfolio = [{
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "awogbuyitimothy@gmail.com.com",
+    YOUR_EMAIL: "awogbuyitimothy@gmail.com",
     YOUR_FONE: "+2348139347195",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    description: "Please reach out to me whenever you like for your next project, let's build something amazing together!",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: "service_id",
-    YOUR_TEMPLATE_ID: "template_id",
-    YOUR_USER_ID: "user_id",
+    YOUR_SERVICE_ID: "service_teem",
+    YOUR_TEMPLATE_ID: "template_to6r59o",
+    YOUR_PUBLIC_KEY: "dVZ5b8SzS0VUnfmxV",
 };
 
 const socialprofils = {

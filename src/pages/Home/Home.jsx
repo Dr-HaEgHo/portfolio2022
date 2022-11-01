@@ -5,6 +5,7 @@ import Showcase from '../Showcase/Showcase'
 import Footer from '../../components/Footer/Footer'
 import Skills from '../Skills/Skills'
 import Header from '../../components/Header/Header'
+import ContactMe from '../Contact/ContactMe'
 
 
 const Home = () => {
@@ -15,7 +16,8 @@ const Home = () => {
       <Header/>
       <Hero />
       <Showcase />
-      <Skills/>
+      <Skills />
+      <ContactMe/>
       <Footer/>
     </div>
   )
