@@ -1,7 +1,7 @@
 import React from 'react'
 import "./show.css"
 
-const Show = ({ image, title, description, github, demo }) => {
+const Show = ({ image, title, description, github, demo, livesite }) => {
   return (
     <div className='show'>
           <div className="caro-container">
@@ -14,8 +14,8 @@ const Show = ({ image, title, description, github, demo }) => {
                       <p>{ description }</p>
                   </div>
                   <div className="caro-cont-buttons">
-                      <a href={demo} target='blank' ><button className='home-portfolio-btn'>Demo</button></a>
-                      <a href={github} target='blank' ><button className='home-contact-btn'>GitHub Repo</button></a>
+            <a href={demo} target='blank' ><button className='home-portfolio-btn'>{ livesite ? "Live Site" : "Demo" }</button></a>
+                      {github !== "" ? (<a href={github} target='blank' ><button className='home-contact-btn'>GitHub Repo</button></a>) : "" }
                   </div>
               </div>
           </div>

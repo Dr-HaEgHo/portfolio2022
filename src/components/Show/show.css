@@ -23,11 +23,15 @@
     width: 40%;
     border-radius: 10px;
     overflow: hidden;
-    aspect-ratio: 1.6;
+    aspect-ratio: 1.69;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    
 }
 
 .caro-img img {
-    height: 100%;
+    width: 100%;
 }
 
 .caro-cont {
@@ -49,12 +53,13 @@
     font-family: Poppins, sans-serif;
     font-size: 14px;
     font-weight: 300;
-}
+}   
 
 .caro-cont-buttons {
     display: flex;
     align-items: center;
-    gap: 1rem
+    gap: 1rem;
+    margin: 1rem 0 0 0; 
 }
 
 @media (max-width:991px) {

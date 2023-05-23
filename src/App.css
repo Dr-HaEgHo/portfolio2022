@@ -27,6 +27,10 @@ a {
     color: var(--text-color)
 }
 
+button{
+    cursor: pointer;
+}
+
 .container{
     width: 90%;
     max-width: 1200px;

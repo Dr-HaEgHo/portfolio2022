@@ -24,7 +24,6 @@
 .hd-home h1{
     font-size: 18px;
     color: var(--text-color);
-
 }
 
 .hd-links{
@@ -43,8 +42,6 @@ li{
 li:hover{
     text-shadow: 0px 0px 30px var(--primary-color);
 }
-
-
 
 .download__cv {
     padding: 8px 20px;

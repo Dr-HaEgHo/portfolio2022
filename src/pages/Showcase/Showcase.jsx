@@ -7,7 +7,7 @@ import Show from '../../components/Show/Show'
 
 const Showcase = () => {
   return (
-      <div className='showcase' id='showcase' >
+      <div className='showcase' id='showcase'>
           <div className="container">
               <div className="sc">
                   <Carousel
@@ -28,6 +28,7 @@ const Showcase = () => {
                           description={ item.description }
                           github={item.github}
                           demo={item.demo}
+                          livesite={item.livesite}
                         />
                         </div>
                       ) )
